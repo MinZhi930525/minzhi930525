@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viesport" content="width=device-width , initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <title>JavaScript break and continue</title>
+    </head>
+    <body>
+        <script>
+            // let obj = new Object();
+            // obj.x = 3;
+            // obj.y = 4;
+            // obj.sum = function() {
+            //     console.log(this.x + this.y);
+            // }
+            // obj.sum();
+            // console.log(obj)
+
+            // let man=new Object();
+            // man.age = 18;
+            // man.name = "小名";
+            // man.talk = function() {
+            //     console.log("Hello 我叫" + this.name + "，今年" + this.age + "歲");
+            // }
+            // console.log(man);
+            // console.log(man.age > 20);
+            // man.talk();
+
+
+            //使用JSON語法
+            let man = {
+                age : 15,
+                name : "小名",
+                talk : function() {
+                    console.log("Hello 我叫" + this.name + "，今年" + this.age + "歲");
+                }
+            };
+            console.log(man);
+            console.log(man.age > 20);
+            man.talk();
+        </script>
+    </body>
+</html

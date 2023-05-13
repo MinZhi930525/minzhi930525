@@ -1,0 +1,15 @@
+<h3>HTML DOM 網頁練習</h3>
+<div id="content">這是一段字</div>
+<button onclick="change()">點我</button>
+<script>
+    function change() {
+        // 取得標籤物件
+        let elem=window.document.querySelector("#content");
+
+        // 操作標籤物件
+        elem.innerHTML="對特定標籤進行操作";
+        elem.className="text";
+        elem.style.fontSize="30px";
+        elem.style.color="royalblue";
+    }
+</script>

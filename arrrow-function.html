@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <title>Arrow Function 箭頭函式</title>
+    </head>
+    <body>
+        <script>
+            /* 寫法一
+            function sum(max) {
+                let result = 0;
+                let n = 1;
+                while (n <= max) {
+                    result += n;
+                    n++;
+                }
+                return result
+            }
+            */
+
+            /* 寫法二
+            let sum = function(max) {
+                let result = 0;
+                let n = 1;
+                while (n <= max) {
+                    result += n;
+                    n++;
+                }
+                return result
+            }
+            */
+
+            // 寫法三(箭頭函式)
+            let sum = (max) => {
+                let result = 0;
+                let n = 1;
+                while (n <= max) {
+                    result += n;
+                    n++;
+                }
+                return result
+            }
+            console.log(sum(10));
+            console.log(sum(100));
+
+            // 乘法函式
+
+            // Oringinal
+            // let product = functiom(x , y) {
+            //     return x * y;
+            // }
+
+            // Arrow Function
+            let product = (x , y) => (x * y);
+            console.log(product(30 , 40));
+
+        </script>
+    </body>
+</html>

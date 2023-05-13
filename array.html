@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <title>Array</title>
+    </head>
+    <body>
+        <script>
+            let arr=[];
+            console.log(arr.length);
+            for (let i = 0 ; i <= 10 ; i++) {
+                arr.push(i);
+            }
+            console.log(arr);
+            console.log(arr.length);
+
+            let arr1=[3, 4];
+            arr1.push(0);
+            console.log(arr1);
+
+            let grades=[];
+            grades.push(60);
+            grades.push(70);
+            grades.push(80);
+            grades.push(90);
+            let sum=0;
+            for (let i = 0 ; i < grades.length ; i++) {
+                sum += grades[i];
+            }
+            console.log(sum);
+            console.log(sum/grades.length);
+        </script>
+    </body>
+</html>

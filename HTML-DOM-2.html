@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <title>HTML DOM</title>
+    </head>
+    <body>
+        <div>
+            <span onmouseover="changeToAbout()">關於我</span>
+            <span onmouseover="changeToExps()">學經歷</span>
+        </div>
+        <hr />
+        <div id="about">大家好我是鐘民智</div>
+        <div id="exps" style="display: none;">目前就讀數學系</div>
+        <script>
+            function changeToAbout() {
+                // Get the element which we want to do something
+                let aboutDiv=window.document.querySelector("#about");
+                let expsDiv=window.document.querySelector("#exps");
+
+                aboutDiv.style.display="block";
+                expsDiv.style.display="none";
+            }
+
+            function changeToExps() {
+                // Get the element which we want to do something
+                let aboutDiv=window.document.querySelector("#about");
+                let expsDiv=window.document.querySelector("#exps");
+
+                aboutDiv.style.display="none";
+                expsDiv.style.display="block";
+            }
+        </script>
+    </body>
+</html>

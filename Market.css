@@ -1,0 +1,11 @@
+nav {
+    width: 375px;
+    height: 95px;
+    background-color: #3E3E3E;
+}
+
+.nav {
+    display: flex;
+    width: 345px;
+    height: 30px;
+}
