@@ -1,24 +1,44 @@
-header {
-    background-color: darkcyan;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-
 main{
     text-align: center;
-    background-color: lightblue;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 20px;
 }
 
 .headline {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4d4d4d;
+    background-color: rgb(249, 249, 249);
     text-align: center;
+    padding-top:  80px;
+    padding-bottom: 30px;
 }
 
 .footer {
     font-size: 60%;
     text-align: center;
     padding: 15px;
-    background-color: darkcyan;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav {
+    padding: 10px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navChoose {
+    cursor: pointer;
+    flex: none;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }

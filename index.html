@@ -4,73 +4,53 @@
         <meta name="viewport" content="width=device-width , initial-scale=1.0" />
         <meta charset="utf-8" />
         <title>我的頁面</title>
-	<link rel="stylesheet" type="text/css" href="index.css" />
+        <link rel="stylesheet" type="text/css" href="index.css" />
     </head>
-    <body>
-        <header>
-            <h1 class="headline">一半人生</h1>
-            <h3 class="headline">電影 飛馳人生 主題曲</h3>
-            <h2 class="headline">作詞：韓寒/作曲：阿信/編曲：賴暐哲</h2>
-        </header>
-        <nav style="background-color: #cccccc;width: auto;padding: 1px;">
-            <ul style="display: flex;text-align: center;list-style-type: none;">
-                <li style="flex: auto;" >
-                    <a href="index.html">一半人生</a>
-                </li>
-                <li style="flex: auto;">
-                    <a href="next.html">知足</a>
-                </li>
-            </ul>
+    <body style="margin: 0px;">
+        <div class="headline">我的主頁！！（下面有照片）</div>
+
+        <nav class="nav">
+            <div
+            class="navChoose"
+            onmouseover="over(this)"
+            onmouseout="out(this)"
+            >選項一</div>
+            <div
+            class="navChoose"
+            onmouseover="over(this)"
+            onmouseout="out(this)"
+            >選項二</div>
+            <div
+            class="navChoose"
+            onmouseover="over(this)"
+            onmouseout="out(this)"
+            >選項三</div>
+            <div
+            class="navChoose"
+            onmouseover="over(this)"
+            onmouseout="out(this)"
+            >選項四</div>
+            <script>
+                function over (elem) {
+                    elem.style.backgroundColor="#dfdfdf";
+                    elem.style.borderRadius="5px";
+                    elem.style.fontWeight="bold";
+                }
+
+                function out(elem) {
+                    elem.style.backgroundColor="#f1f1f1";
+                    elem.style.fontWeight="normal"
+                }
+            </script>
         </nav>
 
         <main>
-            在某個清晨，回望我一生
-            <br />
-            活得雖認真，卻微小如塵
-            <br />
-
-            <p></p>
-
-            想要唱首歌，去唱哭別人
-            <br />
-            最後卻是我，滿臉淚痕
-            <br />
-
-            <p></p>
-            早告別青春，活成了別人
-            <br />
-            經歷的時代，已如此陌生
-            <br />
-
-            <p></p>
-
-            年少時的話，又不敢承認
-            <br />
-	        低頭在人海，浮浮沉沉
-            <br />
-
-            <p></p>
-
-	        我的一半人生 飄蕩就像只風箏
-            <br />
-	        如果命運是風 什麼又是我的繩
-            <br />
-
-            <p></p>
-
-	        我的一半人生 冷暖就讓我自己過問
-            <br />
-	        有熱愛有恨 有未知的前程
-            <br />
-
-            <p></p>
-
-            <a href="https://youtu.be/o22tvGqCz_A" target="_blank">聽歌去</a>
+            <div>寫一些廢話</div>
         </main>
 
         <footer>
             <div class="footer">
-                ©Copyright 2019 homework，本網站為作業之用，如有侵權敬請告知
+                ©Copyright 2023，本網站為個人之用
             </div>
         </footer>
     </body>
