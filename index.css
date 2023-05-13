@@ -1,0 +1,24 @@
+header {
+    background-color: darkcyan;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+main{
+    text-align: center;
+    background-color: lightblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.headline {
+    text-align: center;
+}
+
+.footer {
+    font-size: 60%;
+    text-align: center;
+    padding: 15px;
+    background-color: darkcyan;
+}
